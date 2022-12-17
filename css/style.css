@@ -149,6 +149,9 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-nav:hover,
@@ -176,6 +179,9 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: flex;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-contacts .header-contacts:hover,
@@ -350,6 +356,9 @@ ul {
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -378,6 +387,9 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.secondary:hover,
 .button.secondary:focus {
@@ -529,13 +541,17 @@ ul {
   width: 100%;
   height: 100%;
   fill: var(--social-icon-color);
+  border-radius: 50%;
+
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-networks .social-link:hover,
 .social-networks .social-link:focus {
   background-color: var(--accent-color);
   fill: var(--hero-title-color);
-  border-radius: 50%;
   outline-style: none;
 }
 
@@ -575,6 +591,9 @@ ul {
 
   border: 1px solid var(--social-icon-color);
   border-radius: 4px;
+  transition-property: fill, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -620,6 +639,9 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .address:hover,
@@ -634,6 +656,9 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer .link:hover,
@@ -651,6 +676,9 @@ footer {
   border-radius: 50%;
 
   background-color: var(--footer-icon-bg-color);
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-social-links .list-item:hover,
@@ -665,13 +693,15 @@ footer {
   justify-content: center;
   width: 100%;
   height: 100%;
-
+  border-radius: 50%;
   fill: var(--hero-title-color);
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .join-social-links .link:hover,
 .join-social-links .link:focus {
-  border-radius: 50%;
   outline-style: none;
   background-color: var(--accent-color);
   fill: var(--hero-title-color);
